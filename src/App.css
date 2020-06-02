@@ -66,6 +66,7 @@ span {
   font-weight: bold;
   text-align: center;
   margin-left: 60px;
+  width: 50%;
 }
 
 .nav {
@@ -83,11 +84,11 @@ span {
   align-self: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 40px;
+  margin-bottom: 40px;
   /* border-top: 1px dotted #009ffd; */
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .icons img {
@@ -245,7 +246,7 @@ ul {
   }
   .cta .img-area img {
     flex-direction: row;
-    max-width: auto;
+    max-width: 500px;
     height: auto;
     max-height: 300px;
 

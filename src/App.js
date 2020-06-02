@@ -20,12 +20,6 @@ function App() {
       <div className='cta-container'>
         <div className='cta'>
           <div className='text'>
-            <span role='img' aria-label="thumb">Full-stack developer passionate about creating. 👍</span>
-            <p>I am a full-stack freelance developer and AWS consultant specialising in web and mobile apps and their supporting architecture, 
-            integrating with the latest AWS solutions.</p>
-            <p>Widely experienced, I have worked in the industry for 15 years including running a hosting company and a software development agency. 
-            I am AWS Certified and offer consultancy and freelance support in Macclesfield and Manchester.
-            Quick to understand and identify a solution, I provide a thorough service that delivers top results using the most appropriate technology. </p>
             <div className='icons'>
               <a 
               href="https://www.youtube.com/channel/UCvF499ChQBnWb5ex162EiMg" 
@@ -55,6 +49,11 @@ function App() {
                 <img src={mail} alt='yt'/>
               </a>
             </div>
+            <span role='img' aria-label="thumb">Full-stack developer with a passion for creating. 👍</span>
+            <p>I am a full-stack developer specialising in web and mobile apps and their supporting architecture.</p>
+            <p>Widely experienced, I have worked as a freelancer in the industry for over 3 years developing web and other desktop software for users and agencies. 
+            I have a degree in Computer Science and have also completed the <a href="https://lambdaschool.com/courses/full-stack-web-development" alt="fs-wd" target="blank">Full Stack Web Development course at Lambda School</a>.
+            I am a fast learner who is always result driven and solution oriented, I can provide a thorough service that delivers top results using the most appropriate technology.</p>
           </div>
           <div className='img-area'>
             <img src={image} alt='face'></img>
@@ -66,25 +65,25 @@ function App() {
           <a 
           href="https://medium.com/@nurudeen.amedu" 
           target="_blank"
-          rel="noopener noreferrer"> medium
+          rel="noopener noreferrer"> Medium
           </a>
           <a 
           href="https://dev.to/theallegrarr" 
           target="_blank"
           rel="noopener noreferrer">
-            <img src={youtube} alt='yt'/> dev.to
+            <img src={youtube} alt='yt'/> DEV.to
           </a>
           <a 
           href="https://www.udemy.com/user/nurudeen-amedu/" 
           target="_blank"
           rel="noopener noreferrer">
-            <img src={youtube} alt='yt'/> udemy
+            <img src={youtube} alt='yt'/> Udemy
           </a>
           <a 
           href="https://www.bitdegree.org/instructor/451457-nurudeen-amedu" 
           target="_blank"
           rel="noopener noreferrer">
-            <img src={youtube} alt='yt'/> bitdegree
+            <img src={youtube} alt='yt'/> BitDegree
           </a>
         </div>
       </div>
@@ -135,7 +134,7 @@ function App() {
             <li>Docker</li>
             <li>Kubernetes</li>
             <li>Nginx</li>
-            <li>Apache</li>
+            <li>Heroku</li>
           </ul>
         </div>
       </div>
