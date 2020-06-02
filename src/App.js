@@ -101,7 +101,7 @@ function App() {
             <li>Python</li>
             <li>C++</li>
             <li>Java</li>
-            <li>PHP</li>
+            {/* <li>PHP</li> */}
             <li>HTML, CSS, LESS</li>
             <li>SQL</li>
             <li>C#</li>
@@ -117,7 +117,7 @@ function App() {
             <li>Node.js</li>
             <li>Ionic 3,4,5</li>
             <li>Django</li>
-            <li>Maven, Spring</li>
+            {/* <li>Maven, Spring</li> */}
             <li>Green Sock Animation API (GSAP)</li>
             <li>MQL4, MQL5</li>
             <li>Quantopian</li>
@@ -130,7 +130,7 @@ function App() {
             <h2>DevOps</h2>
           </div>
           <ul>
-            <li>Amazon Web Services</li>
+            {/* <li>Amazon Web Services</li> */}
             <li>Docker</li>
             <li>Kubernetes</li>
             <li>Nginx</li>
