@@ -115,7 +115,9 @@ function App() {
           <ul>
             <li>React, Next.js</li>
             <li>Node.js</li>
-            <li>Ionic 3,4,5</li>
+            {/* <li>Ionic 3,4,5</li> */}
+            <li>SwiftUI</li>
+            <li>Android Studio Java</li>
             <li>Django</li>
             {/* <li>Maven, Spring</li> */}
             <li>Green Sock Animation API (GSAP)</li>
@@ -132,8 +134,8 @@ function App() {
           <ul>
             {/* <li>Amazon Web Services</li> */}
             <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>Nginx</li>
+            {/* <li>Kubernetes</li>
+            <li>Nginx</li> */}
             <li>Heroku</li>
           </ul>
         </div>
