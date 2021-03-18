@@ -51,7 +51,7 @@ function App() {
             </div>
             <span role='img' aria-label="thumb">Full-stack developer with a passion for creating. 👍</span>
             <p>I am a full-stack developer specialising in web and mobile apps and their supporting architecture.</p>
-            <p>Widely experienced, I work at a FinTech start-up and as a freelancer for over 3 years developing web and other desktop software. 
+            <p>Widely experienced, I work at a FinTech start-up and as a freelancer developing web, mobile and other software applications. 
             I have a degree in Computer Science and have also completed the <a href="https://lambdaschool.com/courses/full-stack-web-development" alt="fs-wd" target="blank">Full Stack Web Development course at Lambda School</a>.
             I am a fast learner who is always result driven and solution oriented, I can provide a thorough service that delivers top results using the most appropriate technology.</p>
           </div>
