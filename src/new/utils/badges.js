@@ -14,6 +14,7 @@ import c from '../assets/tools/c++.svg'
 import fb from '../assets/tools/firebase.svg'
 import git from '../assets/tools/git.svg'
 import heroku from '../assets/tools/heroku.svg'
+import css from '../assets/tools/css.svg'
 
 export const list = [
     {
@@ -47,6 +48,10 @@ export const list = [
     },{
         name: 'SASS',
         icon: sass,
+        icon_focus: null
+    },{
+        name: 'CSS',
+        icon: css,
         icon_focus: null
     },{
         name: 'webpack',
@@ -91,3 +96,78 @@ export const resolveIcon = (tags= []) => {
 }
 
 //git firebase postgres heroku c++
+export const tmoniList = [
+    {
+        name: 'React/React Native',
+        icon: react,
+        icon_focus: null
+    },{
+        name: 'JavaScript',
+        icon: js,
+        icon_focus: null
+    },{
+        name: 'Node.js',
+        icon: nodejs,
+        icon_focus: null
+    },{
+        name: 'Swift/SwiftUI',
+        icon: swift,
+        icon_focus: null
+    },{
+        name: 'LESS',
+        icon: css,
+        icon_focus: null
+    },{
+        name: 'Git',
+        icon: git,
+        icon_focus: null
+    },{
+        name: 'Redux',
+        icon: redux,
+        icon_focus: null
+    },{
+        name: 'PostgreSQL',
+        icon: pg,
+        icon_focus: null
+    },{
+        name: 'Firebase',
+        icon: fb,
+        icon_focus: null
+    },{
+        name: 'Bootstrap',
+        icon: bootstrap,
+        icon_focus: null
+    },{
+        name: 'Heroku',
+        icon: heroku,
+        icon_focus: null
+    }
+]
+
+export const bhlist = [
+    {
+        name: 'React',
+        icon: react,
+        icon_focus: null
+    },{
+        name: 'JavaScript',
+        icon: js,
+        icon_focus: null
+    },{
+        name: 'Node.js',
+        icon: nodejs,
+        icon_focus: null
+    },{
+        name: 'BitBucket',
+        icon: git,
+        icon_focus: null
+    },{
+        name: 'CSS',
+        icon: css,
+        icon_focus: null
+    },{
+        name: 'webpack',
+        icon: webpack,
+        icon_focus: null
+    }
+]

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import {list,resolveIcon} from './utils/badges'
+import {list,resolveIcon,tmoniList, bhlist} from './utils/badges'
 import { config } from './utils/get_articles';
 
 import "./style.css"
@@ -18,12 +18,13 @@ import "./style.css"
 export default function HomeX() {
     const [articles, setArticles] = useState([])
     useEffect(() => {
+        //GitHubCalendar(".calendar", "theallegrarr", { responsive: true });
         axios(config)
             .then(function (response) {
-            setArticles(response.data);
+                setArticles(response.data);
             })
             .catch(function (error) {
-            console.log(error);
+                console.log(error);
             });
     }, [])
 
@@ -65,6 +66,61 @@ export default function HomeX() {
                     </p>
                 </div>
             ))}
+        </div>
+    </div>
+    <div className="articles">
+        <div className="header">
+            <h1>Some Projects</h1>
+            <a className="dev" href="https://github.com/theallegrarr"  target="_blank" rel="noopener noreferrer">my github {">>"}</a>
+        </div>
+        <div className="projects">
+            <div className="project-card">
+                <h2 className="project-head">
+                    Thrivemoni
+                </h2>
+                <div className="badges">
+                    {tmoniList.map((item, i) => (
+                        <div key={i} className="badge" id="java-badge">
+                            <img className="icons" id={`${item.name}-icon`} src={item.icon} alt={item.name} />
+                            <h4>{item.name}</h4>
+                        </div>
+                    ))}
+                </div>
+                <p className="project-info">
+                    Built and maintain featues for the admin and user area, also created an iOS app with SwiftUI
+                </p>
+                <a href="https://thrivemoni.com"  target="_blank" rel="noopener noreferrer" className="view-more">
+                    View Project
+                </a>
+            </div>
+            <div className="project-card blue">
+                <h2 className="project-head">
+                    BuyHoldTrack
+                </h2>
+                <div className="badges">
+                    {bhlist.map((item, i) => (
+                        <div key={i} className="badge" id="java-badge">
+                            <img className="icons" id={`${item.name}-icon`} src={item.icon} alt={item.name} />
+                            <h4>{item.name}</h4>
+                        </div>
+                    ))}
+                </div>
+                <p className="project-info">
+                    Real Estate Inventory and tracking system which allows users to add, update and visualize data related to real estate properties they own
+                </p>
+                <a href="https://www.buyholdtrack.com"  target="_blank" rel="noopener noreferrer" className="view-more">
+                    View Project
+                </a>
+            </div>
+        </div>
+    </div>
+    <div className="articles">
+        <div className="header">
+            <h1>GitHub Activity</h1>
+            <a className="dev" href="https://github.com/theallegrarr"  target="_blank" rel="noopener noreferrer">my github {">>"}</a>
+        </div>
+        <div class="calendar">=
+            Loading calendar...
         </div>
     </div>
   </div>)

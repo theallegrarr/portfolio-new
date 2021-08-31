@@ -215,3 +215,88 @@
     position: relative;
     margin-bottom: -10px;
 }
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project-card {
+    width: 45%;
+    margin-top: 10px;
+    border-left: 5px solid #D9534D;
+    padding: 15px;
+    padding-top: 30px;
+    background: #1C2C35;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.project-card h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    /* rw/text10 */
+    color: #ECF8FF;
+    margin-bottom: -15px;
+}
+
+.project-card p {
+    font-size: 12px;
+    line-height: 24px;
+    /* rw/text20 */
+    color: #C9E2F0;
+}
+
+.project-card a {
+    text-decoration: none;
+    border: 2px solid rgba(124, 201, 255, 0.41);
+    border-radius: 6px;
+    padding: 7px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    /* identical to box height */
+    /* rw/text10 */
+    color: #ECF8FF;
+    width: 80px;
+    text-align: center;
+}
+
+.project-card a:hover {
+    color: #1DA1F2;
+}
+
+.project-card.blue {
+    border-left: 5px solid #1DA1F2;
+}
+
+.project-card .badges {
+    font-size: 8px;
+}
+
+.project-card .badges img {
+    width: 10px;
+}
+
+.calendar {
+    margin-top: 20px;
+    font-family: Jost, sans-serif;
+    background-color: white;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .project-card {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}
