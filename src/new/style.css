@@ -127,10 +127,14 @@
 
 .badge:hover {
     background-color: #EA4C89;
-    color: white;
+    color:#EA4C89;
 }
 .icons:hover {
     background-color: #EA4C89;
+    color:#EA4C89;
+}
+.badge:hover > h4 {
+    color: white;
 }
 
 .articles h1 {
