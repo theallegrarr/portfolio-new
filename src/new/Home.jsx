@@ -19,13 +19,13 @@ export default function HomeX() {
     const [articles, setArticles] = useState([])
     useEffect(() => {
         //GitHubCalendar(".calendar", "theallegrarr", { responsive: true });
-        // axios(config)
-        //     .then(function (response) {
-        //         setArticles(response.data);
-        //     })
-        //     .catch(function (error) {
-        //         console.log(error);
-        //     });
+        axios(config)
+            .then(function (response) {
+                setArticles(response.data);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
     }, [])
 
 
