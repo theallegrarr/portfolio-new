@@ -82,4 +82,12 @@ export const list = [
         icon_focus: null
     }
 ]
+
+export const resolveIcon = (tags= []) => {
+    if(tags.indexOf('sass') > -1)return sass
+    if(tags.indexOf('bootstrap') > -1)return bootstrap
+    if(tags.indexOf('redux') > -1)return redux
+    if(tags.indexOf('react') > -1)return react
+}
+
 //git firebase postgres heroku c++

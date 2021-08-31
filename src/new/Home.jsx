@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-import {list} from './utils/badges'
+import {list,resolveIcon} from './utils/badges'
+import { config } from './utils/get_articles';
 
 import "./style.css"
 
@@ -14,6 +16,16 @@ import "./style.css"
  */
 
 export default function HomeX() {
+    const [articles, setArticles] = useState([])
+    useEffect(() => {
+        axios(config)
+            .then(function (response) {
+            setArticles(response.data);
+            })
+            .catch(function (error) {
+            console.log(error);
+            });
+    }, [])
 
 
   return (<div>
@@ -36,5 +48,26 @@ export default function HomeX() {
             </div>
         ))}
     </div>
+    <div className="articles">
+        <div className="header">
+            <h1>Latest Articles</h1>
+            <a className="dev" href="https://dev.to/theallegrarr"  target="_blank" rel="noopener noreferrer">follow me {">>"}</a>
+        </div>
+        <div className="latests">
+            {articles.map((article, i) => (
+                <div key={i} className="article">
+                    <a href={article.url}  target="_blank" rel="noopener noreferrer" className="title">
+                        <img src={resolveIcon(article.tag_list)} alt={article.title} />
+                        <h4>{article.title}</h4>
+                    </a>
+                    <p className="date">
+                        {new Date(article.published_timestamp).toString()}
+                    </p>
+                </div>
+            ))}
+        </div>
+    </div>
   </div>)
 }
+
+// published_timestamp title tag_list url

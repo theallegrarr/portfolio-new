@@ -11,6 +11,7 @@
     padding: 20px;
 	padding-left: calc(20%*9/16);
     padding-right: calc(20%*9/16);
+    font-family: Jost, sans-serif;
 }
 
 .nav a {
@@ -130,4 +131,74 @@
 }
 .icons:hover {
     background-color: #EA4C89;
+}
+
+.articles h1 {
+    color: #82F9A1;
+    font-family: Jost, sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+}
+.articles .header {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.articles .header a {
+    text-decoration: none;
+    color: #1DA1F2;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.articles .header a:hover {
+    border-bottom: 1px #82F9A1 dashed;
+    color: #82F9A1;
+}
+
+.latests {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.article {
+    cursor: pointer;
+}
+.articles .latests .article a {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    /* rw/text10 */
+    color: #ECF8FF;
+    margin-top: 7px;
+    padding-bottom: 0;
+    text-decoration: none;
+    transition: ease-in-out all 0.5s;
+    display: flex;
+    overflow-y: visible;
+}
+.articles .latests .article p {
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 18px;
+    font-style: italic;
+    margin-left: 26px;
+    /* identical to box height */
+    /* rw/blue50 */
+    color: #5E8CA7;
+}
+
+.articles .latests .article h4:hover {
+    color: #82F9A1;
+    border-bottom: 1px #82F9A1 dashed;
+}
+
+.article img {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+    position: relative;
+    margin-bottom: -12px;
 }
