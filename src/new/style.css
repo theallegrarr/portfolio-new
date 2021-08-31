@@ -362,10 +362,76 @@
     border-radius: 6px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .padded {
 	padding-left: calc(20%*9/16);
     padding-right: calc(20%*9/16);
     padding-top: 20px;
+}
+
+.footer p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #B8C1C7;
+    margin-bottom: 8px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #C9E2F0;
+}
+.footer p a:hover {
+    color: #83F9A2;
+}
+.f-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.footer .f-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+}
+
+.f-icons .first-icon {
+    margin-right: 20px;
+}
+.f-icons a {
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+    transition: ease-in-out all 0.5s;
+}
+.f-icons a:hover {
+    background-color: #83F9A2;
+}
+.footer .f-icons img {
+    width: 28px;
+}
+.footer .f-icons .s-icon img{
+    margin-bottom: -12px;
+    width: 20px;
+}
+.s-icon {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media (max-width: 700px) {
+    .footer .f-icons {
+        width: 100%;
+        justify-content: flex-start;
+        align-content: flex-start;
+        padding-left: 0;
+    }
 }
