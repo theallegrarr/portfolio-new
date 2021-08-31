@@ -76,13 +76,14 @@
 
 .cta-text p {
     margin-top: 30px;
+    margin-bottom: 10px;
     font-family: Jost, sans-serif;
     color: #ECF8FF;
     text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
-    line-height: 180%;
+    /* line-height: 180%; */
 }
 
 .badges {
@@ -180,7 +181,7 @@
 .articles .latests .article a {
     font-weight: 500;
     font-size: 13px;
-    line-height: 20px;
+    /* line-height: 20px; */
     /* identical to box height */
     /* rw/text10 */
     color: #ECF8FF;
@@ -191,11 +192,13 @@
     display: flex;
     overflow-y: visible;
     max-width: 70%;
+    padding: 3px;
+    margin-bottom: 3px;
 }
 .articles .latests .article p {
     font-weight: normal;
     font-size: 9px;
-    line-height: 18px;
+    /* line-height: 18px; */
     font-style: italic;
     margin-left: 26px;
     /* identical to box height */
@@ -242,7 +245,7 @@
 .project-card h2 {
     font-weight: 500;
     font-size: 18px;
-    line-height: 15px;
+    /* line-height: 15px; */
     /* rw/text10 */
     color: #ECF8FF;
     margin-bottom: -15px;
@@ -250,7 +253,7 @@
 
 .project-card p {
     font-size: 12px;
-    line-height: 24px;
+    /* line-height: 24px; */
     /* rw/text20 */
     color: #C9E2F0;
 }
@@ -262,7 +265,7 @@
     padding: 7px;
     font-weight: 500;
     font-size: 12px;
-    line-height: 23px;
+    /* line-height: 23px; */
     /* identical to box height */
     /* rw/text10 */
     color: #ECF8FF;
