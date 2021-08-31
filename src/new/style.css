@@ -8,9 +8,6 @@
     height: 100vh;
     overflow-x: hidden;
     background: linear-gradient(158.86deg, #1C2A34 10.36%, #111A20 49.58%, #111A20 49.58%);
-    padding: 20px;
-	padding-left: calc(20%*9/16);
-    padding-right: calc(20%*9/16);
     font-family: Jost, sans-serif;
 }
 
@@ -83,7 +80,7 @@
     font-style: normal;
     font-weight: 200;
     font-size: 18px;
-    /* line-height: 180%; */
+    line-height: 180%;
 }
 
 .badges {
@@ -110,6 +107,8 @@
   cursor: pointer;
   transition: ease-in-out all 0.5s;
   margin-bottom: 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .icons
@@ -313,4 +312,60 @@
     .cta-text {
         padding-top: 50px;
     }
+}
+
+.contact-me {
+    font-family: Jost, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1C2C35;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.contact-me h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100%;
+    overflow-y: hidden;
+    /* or 68px */
+    text-align: center;
+    color: #B0FBBC;
+}
+
+.contact-me p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: center;
+    /* rw/text10 */
+    color: #ECF8FF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact {
+    margin-top: 46px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 132px;
+    height: 38px;
+    
+    background: #83F9A2;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.padded {
+	padding-left: calc(20%*9/16);
+    padding-right: calc(20%*9/16);
+    padding-top: 20px;
 }

@@ -114,7 +114,7 @@ export default function HomeX() {
             </div>
         </div>
     </div>
-    <div className="articles">
+    <div className="articles bottom">
         <div className="header">
             <h1>GitHub Activity</h1>
             <a className="dev" href="https://github.com/theallegrarr"  target="_blank" rel="noopener noreferrer">my github {">>"}</a>
