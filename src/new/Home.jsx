@@ -56,10 +56,10 @@ export default function HomeX() {
         <div className="latests">
             {articles.map((article, i) => (
                 <div key={i} className="article">
-                    <a href={article.url}  target="_blank" rel="noopener noreferrer" className="title">
+                    <span className="title">
                         <img src={resolveIcon(article.tag_list)} alt={article.title} />
-                        <h4>{article.title}</h4>
-                    </a>
+                        <a href={article.url}  target="_blank" rel="noopener noreferrer" >{article.title}</a>
+                    </span>
                     <p className="date">
                         {new Date(article.published_timestamp).toString()}
                     </p>

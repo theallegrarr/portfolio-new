@@ -57,7 +57,7 @@
 }
 
 .cta-text {
-    padding-top: 120px;
+    padding-top: 100px;
 }
 .cta-text a {
     color: #1DA1F2;
@@ -167,7 +167,15 @@
     margin-top: 10px;
 }
 .article {
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles span {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow-y: visible;
 }
 .articles .latests .article a {
     font-weight: 500;
@@ -182,6 +190,7 @@
     transition: ease-in-out all 0.5s;
     display: flex;
     overflow-y: visible;
+    max-width: 70%;
 }
 .articles .latests .article p {
     font-weight: normal;
@@ -194,15 +203,15 @@
     color: #5E8CA7;
 }
 
-.articles .latests .article h4:hover {
+.articles .latests .article a:hover {
     color: #82F9A1;
     border-bottom: 1px #82F9A1 dashed;
 }
 
 .article img {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
     position: relative;
-    margin-bottom: -12px;
+    margin-bottom: -10px;
 }
