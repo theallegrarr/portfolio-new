@@ -567,3 +567,39 @@
 }
 
 
+.a-heading {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 142%;
+    /* or 68px */
+    /* rw/text10 */
+    color: #ECF8FF;
+}
+
+.l-article {
+    margin-top: 40px;
+}
+.l-article .date {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    /* identical to box height */
+    color: #7AB6D9;
+}
+.l-article h3 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    /* rw/text10 */
+    color: #ECF8FF;
+}
+.l-article h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    /* rw/text10 */
+    color: #ECF8FF;
+}
