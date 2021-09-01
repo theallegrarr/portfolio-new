@@ -456,6 +456,7 @@
 
 /*Hidden Nav*/
 .menu-btn {
+    display: none;
     position: relative;
     justify-content: center;
     align-items: center;
