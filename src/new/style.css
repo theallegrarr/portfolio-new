@@ -437,6 +437,6 @@
     }
 }
 
-.articles h1, .badge h4, .project-card h2, .project-card p, .contact-me p, p, .footer .f-icons .s-icon img {
+.articles h1, .badge h4, .project-card h2, .project-card p, .contact-me p, p, .footer .f-icons .s-icon img, a, h1, h2, h3 {
     overflow-y: hidden;
 }
