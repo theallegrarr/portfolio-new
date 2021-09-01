@@ -405,6 +405,7 @@
 
 .f-icons .first-icon {
     margin-right: 20px;
+    overflow-y: hidden;
 }
 .f-icons a {
     background-color: white;
@@ -434,4 +435,8 @@
         align-content: flex-start;
         padding-left: 0;
     }
+}
+
+.articles h1, .badge h4, .project-card h2, .project-card p, .contact-me p, p, .footer .f-icons .s-icon img {
+    overflow-y: hidden;
 }
